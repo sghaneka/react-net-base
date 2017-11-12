@@ -1,4 +1,5 @@
-﻿var gulp = require('gulp');
+﻿/// <binding AfterBuild='js, bower' />
+var gulp = require('gulp');
 var browserify = require('browserify'); // Bundles JS
 var babelify = require('babelify');  // Transforms React JSX to JS
 var source = require('vinyl-source-stream'); // Use conventional text streams with Gulp
